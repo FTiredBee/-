@@ -428,6 +428,10 @@ a{
         visibility: visible;   
     }
     
+    #op_submenu:hover ~ .op_submenu{
+        color:rgba(255, 132, 87, 1);
+    }
+    
     .submenu li{
         display: inline;
         margin-left: auto;
