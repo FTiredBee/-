@@ -1,0 +1,153 @@
+*{
+    font-family: 'Century Gothic';
+}
+
+body{
+    background: #676767;
+    color: rgba(242, 224, 213, 1);
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 2%;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.content{
+    position: relative;
+    left: 27.6%;
+}
+
+.main_screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/image3.png);
+}
+
+.sidebar{
+    position: absolute;
+    width: 27.6%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FECF8A;
+    opacity: 0.95;
+    border-radius: 0px 0px 90px 0px;
+    font-weight: lighter;
+    color: rgba(64, 64, 64, 1);
+    font-size: 120%;
+    line-height: 85%;
+}
+
+.sidebar p, h3{
+    margin-left: 7.5%;
+}
+
+.sidebar *{
+    position: relative;
+    top: 8.8%;
+}
+
+.sidebar h3{
+    margin-top: 8%;
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+.dish_name{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 200%;
+    line-height: 150%;
+}
+
+.sns_icons {
+    position: absolute;
+    top:93%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 7.5%;
+    padding-bottom: 5%;
+}
+
+.main_content{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+.quote{
+    position: relative;
+    left: 17.5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 110%;
+    font-weight: bolder;
+    line-height: 200%;
+    width: 65%;
+}
+
+.col1{
+    width: 42.5%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+.col2{
+    width: 42.5%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+
+.col1, .col2{
+    float: left;
+    line-height: 175%;
+}
+
+.col1 h2{
+    color: rgba(255, 132, 87, 1);
+    margin-top: 5%;
+}
+
+.col2 h2{
+    color: rgba(255, 132, 87, 1);
+    margin-top: 5%;
+}
+
+.col1 img{
+    margin-top: 5%;
+}
+
+.col2 img{
+    margin-top: 5%;
+}
+
+.tab, .tabcontent{
+    display: none;
+}
+
+
+header{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+@font-face {
+    font-family: "Century Gothic"; 
+    src: url("../fonts/11528.ttf") format("truetype"); 
+    font-style: normal; 
+} 
+
