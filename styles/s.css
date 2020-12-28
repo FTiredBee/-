@@ -35,7 +35,7 @@ a{
 }
 
 @media all and (min-width: 320px) and (max-width: 1279px){
-    .popup, .KOCTUJlb100500, .sns_icons, .lang{
+    .popup, .KOCTUJlb100500, .sns_icons, .lang, .search_label{
         display: none;
     }
 
@@ -140,12 +140,6 @@ a{
 
         flex-direction: column;
         align-items: center;
-    }
-
-    .search_label{
-         /* display: none; */
-         position: absolute;
-         z-index: 2;
     }
 
     .search{
@@ -422,12 +416,16 @@ a{
         background: rgba(104, 102, 102, 0.96);
     }
     
-    .topmenu li:hover > .submenu {
-        visibility: visible;
+    .op_submenu{
+        color:rgba(242, 224, 213, 1);
     }
-    
-    .topmenu li:active > .submenu {
-        visibility: visible;
+
+    #op_submenu:checked ~ .op_submenu{
+        color:rgba(255, 132, 87, 1);
+    }
+
+    #op_submenu:checked ~ .submenu {
+        visibility: visible;   
     }
     
     .submenu li{
